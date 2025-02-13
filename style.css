@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:darkgrey;
+}
+.img{
+    width: 30vw;
+    height: 30vh;
+    background-image: url(./images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 10vw;
+    left: 20%;
+}
+.text{
+    width: 15vw;
+    padding: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 5vw;
+    bottom: -15vw;
+    color: black;
+
+}
+button{
+    font-size: 18px;
+    background-color: darkcyan;
+    text-align: center;
+}
